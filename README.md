@@ -67,7 +67,7 @@ INFO: ngram_search.c(306): TOTAL bestpath 0.00 wall 0.000 xRT
 ~~~
 
 
- - I tried to use [goofy's models](http://goofy.zamia.org/voxforge/de/): ``cmusphinx-cont-voxforge-de-r20161117`` and ``cmusphinx-ptm-voxforge-de-r20161117`` via each dirs ``test.sh``. I get the following error both times:
+ - I tried to use [gooofy](https://github.com/gooofy)'s [models](http://goofy.zamia.org/voxforge/de/): ``cmusphinx-cont-voxforge-de-r20161117`` and ``cmusphinx-ptm-voxforge-de-r20161117`` via each dirs ``test.sh``. I get the following error both times:
 
 ~~~
 ... long list of output ...
