@@ -21,8 +21,11 @@ see [the faq on the sample
 rate](http://cmusphinx.sourceforge.net/wiki/faq#qwhat_is_sample_rate_and_how_does_it_affect_accuracy)
 however I only did this to preserve the sample rate and to get a wav file.
 
-## Models
+# Models
 
+## Official Model
+
+ - [request for help on sourceforge](https://sourceforge.net/p/cmusphinx/discussion/help/thread/289d32e1/)
  - I tried it with the stable models from [sourceforge](https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/German/) by running the included ``test.sh``. I am not getting an error, but the result is completely wrong: ``rawls wir feiern``, with:
 
 ~~~
@@ -67,6 +70,9 @@ INFO: ngram_search.c(306): TOTAL bestpath 0.00 wall 0.000 xRT
 ~~~
 
 
+## Gooofy
+
+ - issue on [github](https://github.com/gooofy/nlp/issues/3)
  - I tried to use [gooofy](https://github.com/gooofy)'s [models](http://goofy.zamia.org/voxforge/de/): ``cmusphinx-cont-voxforge-de-r20161117`` and ``cmusphinx-ptm-voxforge-de-r20161117`` via each dirs ``test.sh``. I get the following error both times:
 
 ~~~
